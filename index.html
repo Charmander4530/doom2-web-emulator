@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Doom 2 - js-dos v6.22</title>
-  <script src="https://cdn.jsdelivr.net/gh/caiiiycuk/js-dos@v6.22/dist/js-dos.min.js"></script>
+  <title>Doom 2 - js-dos v7.3.0 from GitHub</title>
+  <script src="https://cdn.jsdelivr.net/gh/caiiiycuk/js-dos@7.3.0/dist/js-dos.min.js"></script>
   <style>
     html, body {
       margin: 0; height: 100%; background: black;
@@ -18,10 +18,11 @@
   <div id="dosbox"></div>
   <script>
     Dos(document.getElementById("dosbox"), {
-      wdosboxUrl: "https://cdn.jsdelivr.net/gh/caiiiycuk/js-dos@v6.22/dist/wdosbox.js"
-    }).ready().then(dos => {
+      wdosboxUrl: "https://cdn.jsdelivr.net/gh/caiiiycuk/js-dos@7.3.0/dist/wdosbox.js"
+    }).then(dos => {
       dos.run("games/doom2/DOOM2.exe");
     });
   </script>
 </body>
 </html>
+
